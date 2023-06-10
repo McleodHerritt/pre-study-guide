@@ -1,6 +1,7 @@
 # Prework Study Guide Webpage
 
-## The prework study guide will help me keep my notes orgainzed for my classes, it has topices divided to make it easy to access information when i am stuck or having a roadblock. It contains notes on HTML, CSS, Git, and JavaScript.
+## Description 
+The prework study guide will help me keep my notes orgainzed for my classes, it has topices divided to make it easy to access information when i am stuck or having a roadblock. It contains notes on HTML, CSS, Git, and JavaScript.
 
 ## Installation
 
