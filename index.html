@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Prework Study Guide</title>
   </head>
+
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <img
+        src="./assets/bowtie-cat.png"
+        alt="Profile image of cat wearing a bow tie."
+      />
       <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
@@ -18,39 +22,174 @@
         <h2>HTML</h2>
         <ul>
           <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user</li>
+          <li>
+            The body element represents the visible content shown to the user
+          </li>
+          <li>The head element contains information, or metadata, that helps the browser to render the page correctly. Elements included within the head are not visible when a user looks at a webpage.
+          </li>
+          <li>The head element in this case defines the following three elements:
+
+            The charset element sets our character encoding.
+            
+            The http-equiv element sets an HTTP header for content.
+            
+            The viewport element sets the default view for our webpage.
+            
+            Finally, the title of the webpage is defined.</li>
+          <li>Inside the head element, we can use the following metadata tags:
+
+            The (title) element defines the title for a webpage. This element is required and is extremely important for Search Engine Optimization (SEO).
+            
+            The (style) element defines the CSS styles associated with a website.
+            
+            The (base) element defines the base URL for a webpage.
+            
+            The(link) element connects an external resource to the HTML document.
+            
+            The (meta) element defines metadata such as the character set, description, keywords, author, and viewport.
+            
+            The (script) element embeds client-side scripts in the HTML document.</li>
+          
+          
+          
         </ul>
       </section>
-      
+
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>A marigin indicates how much space we want around the outside of an element.</li>
-          <li>A padding indicates how much space we want around the content inside and element.</li>
+          <li>
+            A marigin indicates how much space we want around the outside of an
+            element.
+          </li>
+          <li>
+            A padding indicates how much space we want around the content inside
+            and element.
+          </li>
+          <li>
+            Sometimes, we want to apply a rule to all the elements visible on
+            the page. To do that, we use a special wild card symbol, or *.
+          </li>
+          <li>
+            Two or more elements that will share the same styling can be grouped
+            together, combined two selectors into a single CSS rule with a
+            comma,
+          </li>
+          <li>
+            text-align: This is one way to center a title or heading on a
+            webpage. img selector assigns property values to any image element
+            in the markup ul elements declares the font and padding link element
+            creates the connection to the external file, rel attribute specifies
+            the relationship between the current document and the linked
+            document resource,The href attribute specifies the location (URL) of
+            the external resource.
+          </li>
+          <li>
+            Assigning colors in CSS can be done in many ways, including by
+            semantic references such as gray or blue. We can also refer to a
+            color by its hexadecimal code, or hex #. Try selecting a color and
+            replace the border color with its hex #, which you can find on this
+            HTML Color Codes website https://htmlcolorcodes.com/
+          </li>
+          <li>style.css file is linked within the head element</li>
         </ul>
       </section>
 
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status: checks what branch we are currently on </li>
-          <li>git checkout -b branch name: creates a new branch and switches to it</li>
+          <li>git status: checks what branch we are currently on</li>
+          <li>
+            git checkout -b branch name: creates a new branch and switches to it
+          </li>
+          <li>cd .. (navigate backwards once)
+          </li>
+          <li>mkdir (create new directory) ex: mkdir bootcamp
+          </li>
+          <li>touch  (creats a new file)
+          </li>
+          <li>start (opens file)
+          </li>
+          <li>git checkout -b feature/starter-code (creats new branch so we are not working in the main branch)
+          </li>
+          <li>git add -A (adds starter code)
+          </li>
+          <li>git commit -m "add starter code" (how to add changes to our branch feature/starter-code)
+          </li>
+          <li>git pull orgin main (do this to always make sure you have the latest version of the project, you dont want to work on outdated code)
+          </li>
+          <li>git push origin feature/starter-code (creates a new remote branch or add new changes to an existing branch)
+          </li>
+          <li>git checkout main (brings you back to main branch)
+          </li>
         </ul>
       </section>
 
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>A variable is a name container that allows us to store data in our code.</li>
-          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>
+            A variable is a name container that allows us to store data in our
+            code.
+          </li>
+          <li>
+            Control flow is the order in which a computer executes code in a
+            script.
+          </li>
+          <li>
+            variable is simply a named container that allows us to store data in
+            our code. To declare a variable, we use the var keyword. After the
+            var keyword, we give the variable a name. Finally, we use an
+            assignment operator = to assign the specific data that we want
+            stored in our variable. Example "(var shape = "circle")"
+          </li>
+          <li>
+            string that includes all of the topics that we are studying in this
+            module: "HTML, CSS, Git, JavaScript". Notice that the string is
+            contained within quotation marks, ". All strings are surrounded by
+            quotation marks. Note that each line of JavaScript code ends with a
+            semicolon.
+          </li>
+          <li>
+            We can use the console.log method to output a message to the web
+            console by adding an argument.
+          </li>
+          <li>script.js file is linked within the body element.</li>
+          <li>
+            To open the Chrome DevTools web console, follow these steps: While
+            looking at your index.html file in the browser, right-click anywhere
+            in the browser window and select "Inspect" from the menu. Using
+            windows, you can press Control+Shift+I Here, we see the value of the
+            topics variable in the web console.
+          </li>
+          <li>
+            To open the Chrome DevTools web console, follow these steps: While
+            looking at your index.html file in the browser, right-click anywhere
+            in the browser window and select "Inspect" from the menu. Using
+            windows, you can press Control+Shift+I Here, we see the value of the
+            topics variable in the web console.
+          </li>
+          <li>
+            When the computer encounters an if statement in a JavaScript file,
+            it will check to see if the condition that we provide is truthy. If
+            it is, then it will do whatever action we ask it to do in between
+            the curly brackets. If the condition is not true or has a value that
+            is not truthy, then the computer will ignore whatever is in between
+            the curly brackets and move on.
+          </li>
+          <li>
+            The strict equality operator (===) checks to see if two values are
+            equal, and returns a Boolean result true if the values are equal and
+            false if the values are not equal.
+          </li>
         </ul>
       </section>
-
     </main>
 
     <footer>
       <p>I can code!</p>
     </footer>
-    <script src="./assets/script.js"></script>"
+    <script src="./assets/script.js"></script>
+    "
   </body>
 </html>
